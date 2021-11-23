@@ -1,13 +1,15 @@
+body{
+    background-color: #FFF9B6;
+    font-size: 150%; 
+    margin: 4%;
+ }
 h1{
     background: #B4FE98;
     font-size: 150%;
     }
     header{
         background: #32C1CD;
-        text-align: center;
-    }
-    h1{
-        color: #630000;
+        text-align: center; padding: 20px;
     }
     nav{
         font-variant: small-caps;
@@ -17,6 +19,13 @@ h1{
         color: #3E7C17;
         background: #F4A442;
     }
+    section{
+        width: 30%;
+        display: inline-block;
+        margin-right: 2%;
+        float: left;
+    }
+        
     details{
         font-style: italic;
     }
@@ -27,4 +36,5 @@ h1{
     
     footer{
         background: #F4A442;
+        clear: both;
     }

@@ -1,0 +1,28 @@
+span{
+    height: 50px;
+    width: 75px;
+    background: #FFE300;
+    display: inline-block;
+}
+div{
+    height: 100px;
+    width: 45%;
+    background: #49FF00;
+}
+
+p{
+    background: #FF5F7E;
+    width: 200px;
+    height: 100px;
+}
+.kids{
+    float: right;
+}
+.child{
+    float: left;
+}
+.children{
+    clear: both;
+    overflow: scroll;
+
+}
